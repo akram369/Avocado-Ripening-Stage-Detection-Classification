@@ -202,18 +202,6 @@ To run in Google Colab:
 
 ---
 
-## 📹 30-Minute Video Recording Walkthrough Outline
-
-For candidate video submission, follow this suggested timeline:
-1. **Introduction & Greenpod Labs Context (0:00–4:00):** Objective, post-harvest shelf-life extension, role of computer vision in sorting lines.
-2. **Dataset Understanding & Bias Analysis (4:00–9:00):** Walkthrough `01_eda_and_data_cleaning.ipynb`, class distribution, uncovering the resolution & alpha transparency bias, preprocessing fixes.
-3. **Approach 1: Classical CV & ML (9:00–16:00):** Code walkthrough of `src/classical_model.py`, CIELAB $a^*$ channel math, LBP texture maps, SVM vs Random Forest results.
-4. **Approach 2: Deep Learning MobileNetV2 (16:00–22:00):** Architecture walkthrough of `src/dl_model.py`, transfer learning head, training loss/accuracy curves, class-weighted cross entropy.
-5. **Model Comparison & Benchmark Table (22:00–26:00):** Reviewing accuracy, precision, recall, macro F1, and CPU latency trade-offs.
-6. **Live Demo Execution & Mandatory Questions (26:00–30:00):** Running `main_demo.py` live on test images, displaying the conveyor sorting decision, and answering Questions 1–4.
-
----
-
 ## 📄 Deliverable Files Summary
 
 - **PDF Report:** [`report/Assignment2_Avocado_Report.pdf`](report/Assignment2_Avocado_Report.pdf)
@@ -221,3 +209,4 @@ For candidate video submission, follow this suggested timeline:
 - **Interactive Notebooks:** [`notebooks/`](notebooks/)
 - **Inference Script:** [`main_demo.py`](main_demo.py)
 - **Trained Weights:** [`models/classical_svm.joblib`](models/classical_svm.joblib) & [`models/mobilenetv2_best.pth`](models/mobilenetv2_best.pth)
+

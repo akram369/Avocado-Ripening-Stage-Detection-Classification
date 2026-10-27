@@ -24,3 +24,10 @@ ENV/
 # OS artifacts
 Thumbs.db
 .DS_Store
+
+# Raw Dataset directories
+train/
+test/
+data/raw/
+data/processed/
+
